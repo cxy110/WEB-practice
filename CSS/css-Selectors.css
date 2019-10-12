@@ -1,0 +1,41 @@
+/* 类选择器 */
+.sept{
+color: chocolate;
+font-family: 微软雅黑;
+}
+
+/* id选择器 */
+#hello{
+    color: #f80000;
+    text-decoration: none;
+}
+
+/* 元素选择器 */
+h1{
+    color:green;
+    
+}
+
+/* 伪类选择器 */
+a:link{
+    color: blue;
+}
+a:visited{
+    color:yellow;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: blueviolet;
+}
+/* 伪元素选择器 */
+span::before{
+    content:"《";
+    color:#ff6767;
+    
+}
+span::after{
+    content: "》";
+    color: #bd3434;
+}
