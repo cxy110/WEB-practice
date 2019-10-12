@@ -1,1 +1,2 @@
+var sb;
 function a(){}
